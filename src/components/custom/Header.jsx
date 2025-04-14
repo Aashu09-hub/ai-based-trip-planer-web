@@ -82,7 +82,7 @@ function Header() {
             </Popover>
           </div>
           :
-          <Button onClick={()=>setOpenDailog(true)}>Sing In</Button>
+          <Button onClick={()=>setOpenDailog(true)}>Sign In</Button>
         }
       </div>
        <Dialog open={openDailog} onOpenChange={setOpenDailog}>
